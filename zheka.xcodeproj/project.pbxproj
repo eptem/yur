@@ -12,6 +12,8 @@
 		ACFEF64C2268E82900FCAC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFEF64A2268E82900FCAC47 /* Main.storyboard */; };
 		ACFEF64E2268E82A00FCAC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFEF64D2268E82A00FCAC47 /* Assets.xcassets */; };
 		ACFEF6512268E82A00FCAC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFEF64F2268E82A00FCAC47 /* LaunchScreen.storyboard */; };
+		ACFEF6592268E88000FCAC47 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEF6582268E88000FCAC47 /* GameEngine.swift */; };
+		ACFEF65B2268E88900FCAC47 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEF65A2268E88900FCAC47 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ACFEF64D2268E82A00FCAC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFEF6502268E82A00FCAC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACFEF6522268E82A00FCAC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFEF6582268E88000FCAC47 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		ACFEF65A2268E88900FCAC47 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				ACFEF6462268E82900FCAC47 /* AppDelegate.swift */,
 				ACFEF6482268E82900FCAC47 /* ViewController.swift */,
 				ACFEF64A2268E82900FCAC47 /* Main.storyboard */,
+				ACFEF6582268E88000FCAC47 /* GameEngine.swift */,
+				ACFEF65A2268E88900FCAC47 /* Card.swift */,
 				ACFEF64D2268E82A00FCAC47 /* Assets.xcassets */,
 				ACFEF64F2268E82A00FCAC47 /* LaunchScreen.storyboard */,
 				ACFEF6522268E82A00FCAC47 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFEF6492268E82900FCAC47 /* ViewController.swift in Sources */,
+				ACFEF6592268E88000FCAC47 /* GameEngine.swift in Sources */,
 				ACFEF6472268E82900FCAC47 /* AppDelegate.swift in Sources */,
+				ACFEF65B2268E88900FCAC47 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
